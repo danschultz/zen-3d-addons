@@ -9,8 +9,7 @@
   "license": "MIT",
   "sideEffects": false,
   "files": [
-    "dist/*",
-    "!dist/**/__tests__"
+    "dist/"
   ],
   "scripts": {
     "prepare": "install-peers",
