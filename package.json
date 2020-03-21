@@ -18,7 +18,7 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "release": "yarn version",
-    "postrelease": "git push --tags"
+    "postrelease": "git push origin master && git push --tags"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
