@@ -1,0 +1,26 @@
+{
+  "name": "zen-3d-addons",
+  "version": "0.0.1",
+  "description": "Addons and extensions for the Zen3D WebGL library.",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "repository": "git@github.com:danschultz/zen-3d-addons.git",
+  "author": "Dan Schultz <schultz.t.dan@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist/*",
+    "!dist/**/__tests__"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "rollup": "^2.1.0",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "dependencies": {}
+}
