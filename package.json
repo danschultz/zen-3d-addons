@@ -16,7 +16,9 @@
     "prepare": "install-peers",
     "build": "rollup -c rollup.config.js",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "release": "yarn version",
+    "postrelease": "git push --tags"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
