@@ -1,6 +1,6 @@
 {
   "name": "zen-3d-addons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Addons and extensions for the Zen3D WebGL library.",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
